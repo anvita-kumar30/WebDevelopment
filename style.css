@@ -2,10 +2,13 @@ h1 {
     color: #FF0000;  /* red */
     font-size: 30px;
     background-color: orange;
+    margin: 60px;
+    border: 5px solid black;
+    padding: 20px;
 }
 
 p {
-    border: 10px solid green;
+    border: 5px dashed green;
 }
 
 #h3 {
@@ -19,4 +22,9 @@ p {
 img {
     height: 500px;
     width: 500px;
+}
+
+h1, h3 {
+    color: blue;
+    border: 5px solid yellow;
 }
