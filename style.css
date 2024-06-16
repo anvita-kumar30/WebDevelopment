@@ -1,5 +1,22 @@
 h1 {
-    color: red;
+    color: #FF0000;  /* red */
     font-size: 30px;
     background-color: orange;
+}
+
+p {
+    border: 10px solid green;
+}
+
+#h3 {
+    color: blue;
+}
+
+.h4 {
+    color: orange;
+}
+
+img {
+    height: 500px;
+    width: 500px;
 }
