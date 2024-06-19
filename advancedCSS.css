@@ -1,0 +1,71 @@
+/* .box-model {
+    background-color: orange;
+    border: 5px solid green;
+    width: fit-content;
+} 
+
+.content {
+    background-color: green;
+    color: black;
+    padding: 20px;
+    width: 200px;
+    border: 5px solid black;
+    margin: 20px;
+} 
+
+body {
+    overflow: scroll;
+}
+
+.container {
+    background-color: orange;
+    padding: 20px;
+    height: 200vh;
+}
+
+.first {
+    background-color: blue;
+    width: 200px;
+    position: sticky;
+    left: 0px;
+    top: 0px;
+}
+
+.first h2::after {
+    color: red;
+    content: " hello";
+}
+
+.second {
+    background-color: yellow;
+    width: 200px;
+    position: static;
+}
+
+.third {
+    background-color: green;
+    width: 200px;
+    position: static;
+}
+
+input:focus {
+    background-color: aqua;
+} */
+
+
+body {
+    background-color: grey;
+}
+
+.container {
+    background-color: aquamarine;
+    display: flex;
+}
+
+.first,
+.second,
+.third {
+    background-color: yellow;
+    margin: 10px;
+    padding: 10px;
+}
