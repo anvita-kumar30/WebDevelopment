@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -11,7 +12,7 @@
     background-color: rgba(0, 0, 0, 0.5);
     height: 100vh;
     position: relative;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .hero-text {
@@ -27,31 +28,63 @@
     background-color: aqua;
     font-size: 18px;
     border: none;
-    border-radius: 20px;
-    padding: 10px 20px;
-    margin-top: 10px;
+    border-radius: 10px;
+    padding: 8px 20px;
+    margin: 10px 0px;
     cursor: pointer;
 }
 
+.hero-section {
+    text-align: center;
+    margin-bottom: 20px
+}
+
+.about-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about-heading,
+.know-more-container {
+    text-align: center;
+}
+
 .about-us {
+    width: 50%;
+}
+
+ul li {
+    list-style: none;
+}
+
+.fa-solid {
+    margin-right: 10px;
+}
+
+.about-section > h1 {
+    /* text-align: center;
+    margin: 10px 0px; */
+    text-decoration: underline;
+}
+
+/* .amenities {
+    text-align: center;
+} */
+
+/* .about-us {
     float: left;
     width: 50%;
     margin: 10px 10px;
     text-align: center;
-}
+} */
 
-.about-section > h1 {
-    text-align: center;
-    margin: 10px 0px;
-    text-decoration: underline;
-}
+/* .about-section {
+    margin: 20px 30px;
+} */
 
-.amenities {
-    text-align: center;
-}
-
-.amenities ul {
+/* .amenities ul {
     text-align: left;
     display: inline-block;
     margin-top: 10px;
-}
+} */
