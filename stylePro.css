@@ -5,12 +5,17 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+/* html {
+    font-size: 25px;  user defined
+} */
+
 .hero-section {
     background-image: url(hotel.jpg);
     background-size: cover;
     background-blend-mode: overlay;
     background-color: rgba(0, 0, 0, 0.5);
-    height: 100vh;
+    min-height: 100vh;
+    max-width: 100vw;
     position: relative;
     /* text-align: center; */
 }
@@ -21,6 +26,11 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+    /* font-size: 50px; */
+}
+
+.hero-text > h1 {
+    font-size: 3rem;  /* 16 * 3 */
 }
 
 .book-button, 
@@ -132,6 +142,31 @@ input,
 select {
     padding: 5px;
     font-size: 15px;
+}
+
+@media only screen and (max-width: 500px) {
+    .hero-text > h1 {
+        font-size: 20px;  /* 16 * 3 */
+    }
+
+    p {
+        font-size: 8px;
+    }
+
+    .room-images img {
+        width: 300px;
+        height: 200px;
+    }
+}
+
+@media only screen and (min-width: 501px) and (max-width: 980px){
+    .hero-text > h1 {
+        font-size: 30px;  /* 16 * 3 */
+    }
+
+    p {
+        font-size: 15px;
+    }
 }
 
 /* .amenities {
