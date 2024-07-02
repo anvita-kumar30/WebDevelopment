@@ -46,7 +46,9 @@
 }
 
 .about-heading,
-.know-more-container {
+.know-more-container,
+.room-heading,
+.form-heading {
     text-align: center;
 }
 
@@ -62,10 +64,74 @@ ul li {
     margin-right: 10px;
 }
 
+/* .room-images {
+    background-image: url(room.jpg);
+    min-height: max-content;
+    background-size: cover;
+} */
+
+.room-type-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 0px 20px;
+    margin-top: 20px;
+}
+
+.room-list h4 {
+    font-size: 20px;
+}
+
+.room-images img {
+    width: 600px;
+    height: 400px;
+}
+
 .about-section > h1 {
     /* text-align: center;
     margin: 10px 0px; */
     text-decoration: underline;
+}
+
+.help-button {
+    background-color: brown;
+    width: fit-content;
+    padding: 5px 15px;
+    border-radius: 10px;
+    position: fixed;
+    bottom: 20px;
+    right: 0;
+}
+
+.help-button h4 {
+    color: white;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+form {
+    border: 2px solid grey;
+    width: max-content;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 30px 0px;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+label {
+    font-size: 20px;
+}
+
+input,
+select {
+    padding: 5px;
+    font-size: 15px;
 }
 
 /* .amenities {
