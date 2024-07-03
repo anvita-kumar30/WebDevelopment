@@ -1,0 +1,11 @@
+.buttons button:first-child {
+    border-radius: 20px !important;
+}
+
+.buttons button:last-child {
+    border-radius: 20px !important;
+}
+
+.buttons button:nth-child(3) {
+    border-radius: 20px !important;
+}
