@@ -26,6 +26,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+    width: fit-content;
     /* font-size: 50px; */
 }
 
@@ -147,26 +148,105 @@ select {
 
 @media only screen and (max-width: 500px) {
     .hero-text > h1 {
-        font-size: 20px;  /* 16 * 3 */
+        font-size: 1.5rem; 
+        text-decoration: none;
+    }
+
+    .about-heading,
+    .room-heading,
+    .form-heading {
+        font-size: 1.5rem;  
+        text-decoration: underline;
+    }
+
+    .about-heading {
+        margin: 0.5rem 0rem;
     }
 
     p {
-        font-size: 8px;
+        font-size: 1rem;
     }
-
+    /* 
     .room-images img {
         width: 300px;
         height: 200px;
+    } */
+
+    .hero-text {
+        width: fit-content;
+    }
+
+    .about-section,
+    .room-type-container {
+        display: block;
+        padding: 0rem 0.5rem;
+    }
+
+    .about-us {
+        width: 100%;
+    }
+
+    .amenities > h3 {
+        text-align: center;
+    }
+
+    .hero-section {
+        margin-bottom: 0px;
+    }
+
+    .book-button,
+    .know-button {
+        font-size: 1rem;
+    }
+
+    .room-list h4 {
+        text-align: center;
+    }
+
+    form {
+        margin: 0rem 0rem 2rem 0rem;
+    }
+
+    .form-heading {
+        margin: 0.75rem 0rem;
+    }
+
+    label {
+        font-size: inherit;
     }
 }
 
 @media only screen and (min-width: 501px) and (max-width: 980px){
     .hero-text > h1 {
-        font-size: 30px;  /* 16 * 3 */
+        font-size: 2rem; 
+        text-decoration: none;
+    }
+
+    .about-heading,
+    .room-heading,
+    .form-heading {
+        font-size: 1.8rem;  
+        text-decoration: underline;
     }
 
     p {
-        font-size: 15px;
+        font-size: 0.9rem;
+    }
+
+    .room-images img {
+        max-width: 380px;
+    }
+
+    form {
+        margin: 0rem 0rem 2rem 0rem;
+    }
+
+    .form-heading {
+        margin: 0.75rem 0rem;
+    }
+
+    label {
+        font-size: inherit;
     }
 }
 
