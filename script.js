@@ -265,3 +265,19 @@
 // console.log(name.toUpperCase());
 // console.log(name.toLowerCase());
 
+// let arr = [50, 40, 10, 70];
+// console.log(arr.sort());
+// console.log(arr.reverse());
+// arr.forEach((element) => {
+//     console.log(element);
+// });
+
+// let arr2 = ["mango", "oranges", "grapes", "bananas"];
+// let arr3 = arr.concat(arr2);
+// console.log(arr3);
+
+// let arr4 = arr.map((item) => {
+//     return item * 2;
+// });
+// console.log(arr);
+// console.log(arr4);
