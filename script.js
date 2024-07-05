@@ -182,4 +182,72 @@
 // var total;
 // for (var item of arr) {
 //     total = total + item
+//     console.log(total);
 // }
+// console.log(total);
+
+// let a = 10; 
+// console.log(a);
+// {
+//     let b = 40;  //block scope {}
+//     console.log(b);
+//     let a = 50;
+//     console.log(a);
+//     let a = 30  //cannot declare the same variable twice in a block
+// }
+// console.log(b);
+
+// const a = 45;
+// a = 100 //Will not change its value under any circumstances
+// console.log(a);
+// {
+//     const b = 45;
+//     console.log(b);
+// }
+// console.log(b);
+
+//Hoisting - can access varibales and functions even before initializing it
+
+// let a;
+// console.log(a);
+// a = 100;
+
+// var a;
+// console.log(a);
+// a = 100;
+
+// console.log(a);
+// let a;
+// a = 100;
+
+// console.log(a);
+// var a;
+// a = 100;
+
+// const a;
+// a = 100;
+
+// x = 100;
+// console.log(x);
+// let x;
+
+// add(10, 15);
+// function add (x, y) {
+//     console.log(x + y);
+// }
+
+// add(10, 15);
+// var fun = function add (x, y) {
+//     console.log(x + y);
+// }
+
+// var fun = function add (x, y) {
+//     console.log(x + y);
+// };
+// fun(10, 15);
+
+fun(10, 15);
+console.log(fun);
+var fun = function add (x, y) {
+    console.log(x + y);
+};
