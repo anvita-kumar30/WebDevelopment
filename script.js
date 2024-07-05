@@ -125,3 +125,18 @@
 // }
 // add((x=10), (y=20));
 // add(x, y, a);
+
+// var btn = document.getElementById("btn");
+// btn.addEventListener("focus", color);
+    
+// function color() {
+//     heading.style.color = "red";
+// }
+
+// function add() {
+//     return function ret() {
+//         console.log("returned");
+//     };
+// };
+// var x = add();
+// x();
