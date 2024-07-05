@@ -18,12 +18,12 @@ function addTodo(event) {
 
     const deleteButton = document.createElement("button");
     deleteButton.classList.add("delete-btn");
-    deleteButton.innerHTML = '<i class="fa-solid fa-trash-can"></i>'
+    deleteButton.innerHTML = '<i class="fa-solid fa-trash-can"></i>';
     todoDiv.appendChild(deleteButton);
 
     const completeButton = document.createElement("button");
     completeButton.classList.add("complete-btn");
-    completeButton.innerHTML = '<i class="fa-solid fa-check"></i>'
+    completeButton.innerHTML = '<i class="fa-solid fa-check"></i>';
     todoDiv.appendChild(completeButton);
 
     todoList.appendChild(todoDiv);
@@ -35,9 +35,9 @@ function deleteTodo(event) {
     if (item.classList[0] === "delete-btn") {
         const delItem = item.parentElement;
         delItem.remove();
-    }
+    };
     if (item.classList[0] === "complete-btn") {
         const delItem = item.parentElement;
         delItem.classList.toggle("completed");
-    }
-}
+    };
+};
