@@ -133,6 +133,12 @@
 //     heading.style.color = "red";
 // }
 
+var btn = document.getElementById("btn");
+btn.addEventListener("focus", () => {
+    heading.style.color = "red";
+});
+
+
 // function add() {
 //     return function ret() {
 //         console.log("returned");
@@ -146,7 +152,34 @@
 // }, 5000); 
 
 
-//ES6
-var x = () => {
-    
-}
+//ES6 concepts
+
+//Arrow Function 
+
+// var x = () => {
+//     console.log("Arrow function");
+// };
+// x();
+
+//Template Literal
+
+// var firstName = "Anvita"
+// var lastName = "Kumar"
+// console.log(firstName, lastName);
+
+// var name = `My name is ${firstName} ${lastName} and my age is ${15 + 5}`;
+// console.log(name);
+
+//Destructuring
+
+// var arr = [100, 200];
+// var[first, second] = arr;
+// console.log(second, first);
+
+// For of loop
+
+// var arr = [100, 200, 300, 400, 500];
+// var total;
+// for (var item of arr) {
+//     total = total + item
+// }
