@@ -140,3 +140,13 @@
 // };
 // var x = add();
 // x();
+
+// setTimeout( function () {
+//     console.log("Set Timeout Running");
+// }, 5000); 
+
+
+//ES6
+var x = () => {
+    
+}
