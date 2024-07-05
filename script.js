@@ -246,8 +246,22 @@
 // };
 // fun(10, 15);
 
-fun(10, 15);
-console.log(fun);
-var fun = function add (x, y) {
-    console.log(x + y);
-};
+// fun(10, 15);
+
+// console.log(fun);
+// var fun = function add (x, y) {
+//     console.log(x + y);
+// };
+
+// let name = "My name is Anvita"
+// for (const alphabet of name) {
+//     console.log(alphabet);
+// }
+
+// console.log(name.includes("A"));
+// console.log(name.includes("T"));
+// console.log(name.includes("name"));
+
+// console.log(name.toUpperCase());
+// console.log(name.toLowerCase());
+
