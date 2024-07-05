@@ -133,10 +133,10 @@
 //     heading.style.color = "red";
 // }
 
-var btn = document.getElementById("btn");
-btn.addEventListener("focus", () => {
-    heading.style.color = "red";
-});
+// var btn = document.getElementById("btn");
+// btn.addEventListener("focus", () => {
+//     heading.style.color = "red";
+// });
 
 
 // function add() {
